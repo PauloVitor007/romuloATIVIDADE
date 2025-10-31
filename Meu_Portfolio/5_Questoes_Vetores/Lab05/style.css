@@ -1,0 +1,16 @@
+/* Reutilize o CSS do Lab 01, mas ajuste os inputs e botões */
+input[type="text"] { width: auto; padding: 0.5rem; }
+div { margin-bottom: 1rem; }
+button { margin-left: 5px; }
+.array-container { background-color: #0056b3; border: 1px solid #ddd; border-radius: 4px; padding: 1rem; min-height: 50px; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 0.5rem; }
+.array-item { background-color: #e9ecef; color: #333; padding: 0.5rem; border-radius: 4px; font-family: monospace; }
+.resultado {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    min-height: 30px;
+}
