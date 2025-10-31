@@ -1,4 +1,3 @@
-// Estado inicial da aplicação
 let meuArray = ['texto']; // Começa com um item, como na imagem
 
 // Selecionando os elementos do DOM
@@ -10,7 +9,6 @@ const btnPop = document.getElementById('btnPop');
 const btnUnshift = document.getElementById('btnUnshift');
 const btnShift = document.getElementById('btnShift');
 
-// Função para redesenhar o array na tela
 function renderizarArray() {
     // Limpa o container
     arrayContainer.innerHTML = '';
@@ -24,7 +22,7 @@ function renderizarArray() {
     }
 }
 
-// Lógica dos botões
+// botões
 btnPush.addEventListener('click', () => {
     const valor = valorInput.value;
     if (valor) { // Só adiciona se o usuário digitou algo
@@ -57,5 +55,4 @@ btnShift.addEventListener('click', () => {
     }
 });
 
-// Renderiza o array inicial quando a página carrega
 renderizarArray();

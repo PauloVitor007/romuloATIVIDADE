@@ -1,4 +1,3 @@
-/* Estilo básico para visualização */
 body { font-family: sans-serif; background-color: #f0f2f5; display: grid; place-items: center; min-height: 100vh; }
 main { background: #fff; border-radius: 8px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 600px; }
 h1 { font-size: 1.5rem; margin-top: 0; }
